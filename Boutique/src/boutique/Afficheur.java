@@ -24,9 +24,4 @@ public class Afficheur {
             afficher(articles.getKey().getNom() + " " + articles.getKey().getPrix() + "€, " + articles.getValue() + " en stock");
         }
     }
-    
-    public static void demander(){
-        afficher("Que voulez vous ?");
-        
-    }
 }

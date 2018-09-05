@@ -11,10 +11,17 @@ import java.util.Scanner;
  *
  * @author axbruget1
  */
-public class BoutiqueManager {
+public class Reponse {
     
-    public void reponse(){
+    public static String reponseNom(){
         Scanner sc = new Scanner(System.in);
-        //sc.nextString
+        String reponse = sc.nextLine();
+        return reponse;
+    }
+    
+    public static int reponseQuantite(){
+        Scanner sc = new Scanner(System.in);
+        int reponse = sc.nextInt();
+        return reponse;
     }
 }

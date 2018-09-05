@@ -5,6 +5,8 @@
  */
 package boutique;
 
+import static boutique.Afficheur.afficher;
+import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -13,8 +15,22 @@ import java.util.Scanner;
  */
 public class BoutiqueManager {
     
-    public void reponse(){
-        Scanner sc = new Scanner(System.in);
-        //sc.nextString
+    public static Article getArticle(String nomArticle){
+        for ( Article a : Stock.getStock().keySet()){
+            if ( nomArticle.equals(a.getNom())){
+                return a;
+            }
+        }
+        return null;
+    }
+    public static void checkStock(int quantiteDemande, Article article){
+        for ( int quantite : Stock.getStock().values()){
+            if ( quantite > quantiteDemande ){
+                
+            }
+            else{
+                Afficheur.afficher("");
+            }
+        }
     }
 }

@@ -17,8 +17,16 @@ public class Boutique {
     public static void main(String[] args) {
         
         Afficheur.afficherProduits();
-        Afficheur.demander();
-        //BoutiqueManager.reponse()
+        Afficheur.afficher("Que voulez vous ?");
+        String nomArticle = Reponse.reponseNom();
+        Article article = BoutiqueManager.getArticle(nomArticle);
+        if ( article != null ){
+            Afficheur.afficher("En quelle quantite ?");
+            int quantiteArticle = Reponse.reponseQuantite();
+            if ( quantiteArticle > 0 ){
+                BoutiqueManager.checkStock(quantiteArticle,article);
+            }
+        }
     }
     
 }

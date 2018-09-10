@@ -25,11 +25,13 @@ public class BoutiqueManager {
     }
     public static void checkStock(int quantiteDemande, Article article){
         for ( int quantite : Stock.getStock().values()){
-            if ( quantite > quantiteDemande ){
+            if ( quantite >= quantiteDemande ){
+                GestionnairePanier.ajouterProduit(article,quantiteDemande);
+                Afficheur.afficherPanier();
                 
             }
             else{
-                Afficheur.afficher("");
+                Afficheur.afficher("Quantite en stock insuffisante");
             }
         }
     }

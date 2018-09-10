@@ -5,6 +5,8 @@
  */
 package boutique;
 
+import java.io.IOException;
+
 /**
  *
  * @author axbruget1
@@ -14,19 +16,29 @@ public class Boutique {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         
+        Stub.getArticles();
+        /**
         Afficheur.afficherProduits();
         Afficheur.afficher("Que voulez vous ?");
+        
+                
         String nomArticle = Reponse.reponseNom();
         Article article = BoutiqueManager.getArticle(nomArticle);
-        if ( article != null ){
-            Afficheur.afficher("En quelle quantite ?");
-            int quantiteArticle = Reponse.reponseQuantite();
-            if ( quantiteArticle > 0 ){
-                BoutiqueManager.checkStock(quantiteArticle,article);
-            }
+        
+        while ( article == null ){
+            Afficheur.afficher("Nous n'avons pas ce produit, cherchez autre chose");
+            nomArticle = Reponse.reponseNom();
+            article = BoutiqueManager.getArticle(nomArticle);
         }
+        
+        Afficheur.afficher("En quelle quantite ?");
+        int quantiteArticle = Reponse.reponseQuantite();
+        if ( quantiteArticle > 0 ){
+            BoutiqueManager.checkStock(quantiteArticle,article);
+        }
+        */
     }
     
 }

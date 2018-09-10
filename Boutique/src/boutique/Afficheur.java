@@ -24,4 +24,12 @@ public class Afficheur {
             afficher(articles.getKey().getNom() + " " + articles.getKey().getPrix() + "€, " + articles.getValue() + " en stock");
         }
     }
+    
+    public static void afficherPanier(){
+        afficher("Votre Panier a été mis à jour :");
+        
+        for ( Entry<Article,Integer> articles : Panier.getArticles().entrySet()){
+            afficher(articles.getKey().getNom() + " " + articles.getKey().getPrix() + "€, " + articles.getValue() + " en stock");
+        }
+    }
 }

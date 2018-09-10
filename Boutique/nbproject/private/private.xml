@@ -3,17 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/etud/axbruget1/NetBeansProjects/Boutique/src/boutique/Livre.java</file>
-            <file>file:/home/etud/axbruget1/NetBeansProjects/Boutique/src/boutique/Telephone.java</file>
-            <file>file:/home/etud/axbruget1/NetBeansProjects/Boutique/src/boutique/Afficheur.java</file>
-            <file>file:/home/etud/axbruget1/NetBeansProjects/Boutique/src/boutique/Television.java</file>
-            <file>file:/home/etud/axbruget1/NetBeansProjects/Boutique/src/boutique/Enceinte.java</file>
-            <file>file:/home/etud/axbruget1/NetBeansProjects/Boutique/src/boutique/Boutique.java</file>
-            <file>file:/home/etud/axbruget1/NetBeansProjects/Boutique/src/boutique/Panier.java</file>
-            <file>file:/home/etud/axbruget1/NetBeansProjects/Boutique/src/boutique/BoutiqueManager.java</file>
-            <file>file:/home/etud/axbruget1/NetBeansProjects/Boutique/src/boutique/Article.java</file>
-            <file>file:/home/etud/axbruget1/NetBeansProjects/Boutique/src/boutique/Stub.java</file>
-            <file>file:/home/etud/axbruget1/NetBeansProjects/Boutique/src/boutique/Stock.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/Boutique.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/BoutiqueManager.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/GestionnairePanier.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/Livre.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/Television.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/Reponse.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/Panier.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/Stock.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/GestionnaireStock.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/Article.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/Afficheur.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/Enceinte.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/Telephone.java</file>
+            <file>file:/C:/Users/admin/Desktop/TPJava/Boutique/src/boutique/Stub.java</file>
         </group>
     </open-files>
 </project-private>

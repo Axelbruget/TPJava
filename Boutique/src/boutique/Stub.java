@@ -5,8 +5,11 @@
  */
 package boutique;
 
-import java.util.ArrayList;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.HashMap;
+import java.util.Scanner;
 
 /**
  *
@@ -14,14 +17,12 @@ import java.util.HashMap;
  */
 public class Stub {
     
-    public static HashMap<Article,Integer> getArticles(){
-        HashMap<Article,Integer> listeArticles = new HashMap<>();
-        
-        listeArticles.put(new Livre("Livre",21.8), 2);
-        listeArticles.put(new Enceinte("Enceinte",81.7), 1);
-        listeArticles.put(new Television("Television",1782.99), 3);
-        listeArticles.put(new Telephone("Telephone",521.99), 0);
-        
-        return listeArticles;
+    public static HashMap<Article,Integer> getArticles() throws FileNotFoundException, IOException{
+        Scanner s = new Scanner("stub.txt");    
+        int i;    
+        while((i=fr.read())!=-1)    
+        System.out.print((char)i);    
+        fr.close();   
+        return null;
     }
 }

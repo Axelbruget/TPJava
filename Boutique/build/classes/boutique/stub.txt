@@ -1,0 +1,4 @@
+Livre 21.8 2 
+Enceinte 81.7 1
+Television 1782.99 3
+Telephone 521.99 0

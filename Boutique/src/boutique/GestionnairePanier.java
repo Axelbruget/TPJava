@@ -5,16 +5,12 @@
  */
 package boutique;
 
-import java.util.HashMap;
-
 /**
  *
- * @author axbruget1
+ * @author admin
  */
-public class Panier {
-    private static HashMap<Article,Integer> articles;
-
-    public static HashMap<Article,Integer> getArticles() {
-        return articles;
+public class GestionnairePanier {
+    public static void ajouterProduit(Article article,int quantite){
+        Panier.getArticles().put(article,quantite);
     }
 }

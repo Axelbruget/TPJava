@@ -3,19 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package boutique;
-
-import java.util.Scanner;
+package exception;
 
 /**
  *
  * @author axbruget1
  */
-public class Reponse {
+public class WrongNumberException extends Exception{
     
-    public static String repondre(){
-        Scanner sc = new Scanner(System.in);
-        String reponse = sc.nextLine(); 
-        return reponse;
-    }
 }

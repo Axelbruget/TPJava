@@ -18,7 +18,9 @@ public class Boutique {
         
         Afficheur.afficherProduits();
         Afficheur.demander();
-        //BoutiqueManager.reponse()
+        String nomArticle = Reponse.repondre();
+        BoutiqueManager.checkStock(nomArticle);
+        
     }
     
 }

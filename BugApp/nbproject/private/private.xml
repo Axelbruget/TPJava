@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/etud/axbruget1/NetBeansProjects/BugApp/src/metier/BugManager.java</file>
+            <file>file:/home/etud/axbruget1/NetBeansProjects/BugApp/src/exception/WrongNumberException.java</file>
+            <file>file:/home/etud/axbruget1/NetBeansProjects/BugApp/src/io/EntreeClavier.java</file>
+            <file>file:/home/etud/axbruget1/NetBeansProjects/BugApp/src/metier/Bug.java</file>
+            <file>file:/home/etud/axbruget1/NetBeansProjects/BugApp/src/data/FileManager.java</file>
+            <file>file:/home/etud/axbruget1/NetBeansProjects/BugApp/src/main/BugApp.java</file>
+            <file>file:/home/etud/axbruget1/NetBeansProjects/BugApp/src/data/data.txt</file>
+            <file>file:/home/etud/axbruget1/NetBeansProjects/BugApp/src/io/Afficheur.java</file>
+        </group>
+    </open-files>
+</project-private>
